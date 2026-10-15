@@ -1,0 +1,90 @@
+/* ===== SALTSOURCE basic codes — do not duplicate / share ===== */
+html, body {
+margin: 0 !important;
+padding: 0 !important;
+background-color: var(--salt-charcoal) !important;
+background-image:
+radial-gradient(circle, #FFFFFF0D 0 .6px, transparent 1px),
+repeating-linear-gradient(90deg, #FFFFFF06 0 30px, #00000026 30px 32px, transparent 32px 34px),
+radial-gradient(ellipse at 50% -10%, #8A7B6C33 0%, transparent 60%) !important;
+background-size: 3px 3px, auto, 100% 100% !important;
+background-attachment: fixed !important;
+}
+::selection { background: var(--salt-tan); color: var(--salt-black); }
+#headerWrap, #footerwarpper, #footerWarpper, .profileInfo, table.profileInfo,
+.contactTable, .contacttable, .userProfileURL, .userprofileurl,
+.interestsAndDetails, .interestsanddetails, .userProfileDetail, .userprofiledetail,
+.extendedNetwork, .latestBlogEntry, .latestblogentry, table.blurbs, .blurbs,
+.friendSpace, .friendspace, .friendsComments, .friendscomments,
+.userAlbums, .useralbums {
+display: none !important; visibility: hidden !important;
+}
+td.rs-col-left > br, td.rs-col-right > br, td.rs-col-right > p,
+#profileV1main br:first-child { display: none !important; }
+ 
+/* ===== SALTSOURCE COLUMN CODE — do not duplicate / share ===== */
+#profileV1main {
+width: 822px !important;
+margin: 60px auto 46px auto !important;
+background: transparent !important; border: 0 !important;
+border-collapse: separate !important;
+}
+#profileV1main table { border-collapse: separate !important; }
+#profileV1main td { background: transparent !important; border: 0 !important; }
+#profileV1main > tbody > tr > td:first-child { display: none !important; }
+#profileV1main .rs-col-left {
+width: 350px !important; min-width: 350px !important; max-width: 350px !important;
+padding: 0 !important; vertical-align: top !important;
+}
+#profileV1main .rs-col-right {
+width: 450px !important; min-width: 450px !important; max-width: 450px !important;
+padding: 0 !important; vertical-align: top !important;
+}
+#profileV1main .rs-gutter {
+width: 22px !important; min-width: 22px !important; max-width: 22px !important;
+font-size: 0 !important; line-height: 0 !important;
+}
+#profileV1main .rs-gutter img { width: 22px !important; height: 1px !important; }
+#profileV1main .rs-col-left, #profileV1main .rs-col-right, .saltsource { text-align: justify !important; }
+.saltsource {
+width: 100%;
+display: block;
+box-sizing: border-box;
+color: var(--salt-black);
+font-family: var(--salt-font-body);
+font-size: var(--salt-font-size);
+line-height: 1.6;
+}
+.saltsource * { box-sizing: border-box; text-transform: lowercase !important; }
+.saltsource a {
+color: inherit !important;
+text-decoration: none !important;
+background-image: linear-gradient(var(--salt-tan), var(--salt-tan));
+background-size: 0% 2px;
+background-position: 0 100%;
+background-repeat: no-repeat;
+transition: background-size .3s ease, color .2s ease;
+}
+.saltsource a:hover { color: var(--salt-tan) !important; background-size: 100% 2px; }
+ 
+/* ===== SALTSOURCE BOX CODES — do not duplicate / share ===== */
+.salt-box, .parachute-dossier, .parachute-photo, .parachute-quote {
+margin: 0 0 16px;
+border-radius: 4px;
+box-shadow: var(--salt-glow);
+}
+.salt-box, .parachute-dossier, .parachute-photo { overflow: hidden; }
+.salt-box, .parachute-dossier { background: var(--salt-cream); }
+.salt-box-dark { background: var(--salt-dark-brown); }
+.salt-roomy { padding-bottom: 18px; }
+.salt-head { display: flex; justify-content: space-between; align-items: baseline; padding: 14px 22px 12px; border-bottom: 1px solid #2623201A; }
+.salt-box-dark .salt-head { border-bottom-color: #FFFFFF14; }
+.salt-title { font-family: var(--salt-font-display); font-size: 20px; font-weight: 700; letter-spacing: -.02em; text-align: left; }
+.salt-box-dark .salt-title { color: var(--salt-off-white); }
+.salt-k { font-family: var(--salt-font-mono); font-size: 11px; color: var(--salt-light-taupe); }
+.salt-box-dark .salt-k { color: var(--salt-stone); }
+.mp-disc img, .parachute-photo img, .ig-top img, .ig-grid img, .cx-card img, .tandem-who img, .snap-frame img {
+display: block;
+object-fit: cover;
+}
+.bio-body::-webkit-scrollbar, .dx-body::-webkit-scrollbar { width: 0; }
