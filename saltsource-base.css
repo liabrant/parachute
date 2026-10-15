@@ -1,9 +1,5 @@
 /* ===== SALTSOURCE basic codes — do not duplicate / share ===== */
 
-@keyframes parachute-spin { to { transform: rotate(360deg); } }
-@keyframes parachute-pulse { 0% { box-shadow: 0 0 0 0 var(--salt-gold); } 70% { box-shadow: 0 0 0 8px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
-@keyframes salt-pulse { 0% { box-shadow: 0 0 0 0 var(--salt-gold); } 70% { box-shadow: 0 0 0 6px transparent; } 100% { box-shadow: 0 0 0 0 transparent; } }
-
 .saltsource * { box-sizing: border-box; text-transform: lowercase !important; }
 .saltsource a {
 color: inherit !important;
