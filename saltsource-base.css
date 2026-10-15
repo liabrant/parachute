@@ -1,4 +1,17 @@
 /* ===== SALTSOURCE basic codes — do not duplicate / share ===== */
+
+.saltsource * { box-sizing: border-box; text-transform: lowercase !important; }
+.saltsource a {
+color: inherit !important;
+text-decoration: none !important;
+background-image: linear-gradient(var(--salt-tan), var(--salt-tan));
+background-size: 0% 2px;
+background-position: 0 100%;
+background-repeat: no-repeat;
+transition: background-size .3s ease, color .2s ease;
+}
+.saltsource a:hover { color: var(--salt-tan) !important; background-size: 100% 2px; }
+
 html, body {
 margin: 0 !important;
 padding: 0 !important;
@@ -22,7 +35,6 @@ display: none !important; visibility: hidden !important;
 td.rs-col-left > br, td.rs-col-right > br, td.rs-col-right > p,
 #profileV1main br:first-child { display: none !important; }
  
-/* ===== SALTSOURCE COLUMN CODE — do not duplicate / share ===== */
 #profileV1main {
 width: 822px !important;
 margin: 60px auto 46px auto !important;
@@ -66,8 +78,7 @@ background-repeat: no-repeat;
 transition: background-size .3s ease, color .2s ease;
 }
 .saltsource a:hover { color: var(--salt-tan) !important; background-size: 100% 2px; }
- 
-/* ===== SALTSOURCE BOX CODES — do not duplicate / share ===== */
+
 .salt-box, .parachute-dossier, .parachute-photo, .parachute-quote {
 margin: 0 0 16px;
 border-radius: 4px;
